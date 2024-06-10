@@ -5,7 +5,6 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="stattotex",
-    version="0.0.1",
     author="Isaac Liu",
     author_email="ijyliu@gmail.com",
     description="A simple function for automatically updating LaTeX documents with numbers from Python.",
