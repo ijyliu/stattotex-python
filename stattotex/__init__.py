@@ -1,1 +1,1 @@
-name = "stargazer"
+name = "stattotex"

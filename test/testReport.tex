@@ -1,0 +1,20 @@
+% Set the document class to be an article
+\documentclass{article}
+
+% Add testNums.tex as input
+% This will add the numbers as commands
+\input{testNums.tex}
+
+\begin{document}
+
+    This is a demonstation of the stattotex package.
+
+    Import of a formatted number: \FormatTest
+
+    Import of a percentage: \PctTest
+
+    Import of a word: \WordTest
+
+    Sample paragraph: Every month last quarter, we sold an average of \FormatTest \space units. This is a \PctTest \space increase over the prior quarter, meaning our revenue significantly \WordTest.
+
+\end{document}
