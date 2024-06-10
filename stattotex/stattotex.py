@@ -5,10 +5,10 @@ def stattotex(number, number_name, filename, clear_file=False):
     Function that takes number and associated name from Python and saves into a file that allows for easy read-in to LaTeX.
 
     Parameters:
-    - number: The number to be saved to the file. Can be a number, number formatted as a string, or even a word
+    - number: The number/statistic to be saved to the file. Can be a number, number formatted as a string, or even a word
     - number_name: The name of the number in the LaTeX file
     - filename: The name of the file to be saved to
-    - clear_file: Boolean that determines whether the file should be deleted before writing to it
+    - clear_file: Default is False. If True, the file will be deleted before writing to it. If false it will not be deleted, and the new number will be appended to the end of the file - still superseding any previous number with the same name.
     '''
 
     # Creating the LaTeX command

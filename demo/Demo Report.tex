@@ -1,0 +1,20 @@
+% Set the document class to be an article
+\documentclass{article}
+
+% Add demoNums.tex as input
+% This will add the numbers as commands
+\input{demoNums.tex}
+
+\begin{document}
+
+    This is a demonstation of the stattotex package.
+
+    Import of a formatted number: \AvgMonthlySales
+
+    Import of a percentage: \SaleIncPct
+
+    Import of a word: \SaleDir
+
+    Sample paragraph: Every month last quarter, we sold an average of \AvgMonthlySales \space units. This is a \SaleIncPct \space increase over the prior quarter, meaning our revenue significantly \SaleDir.
+
+\end{document}
