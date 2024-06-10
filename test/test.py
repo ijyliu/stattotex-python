@@ -8,16 +8,16 @@ from stattotex import stattotex
 number = 2532.01
 # Format
 f_number = '{:,.2f}'.format(number)
-stattotex(f_number, "FormatTest", "test/testNums.tex", clear_file=True)
+stattotex("FormatTest", f_number, "test/testVars.tex", clear_file=True)
 
 # String with a percent sign
 pct_string = "0.3%"
-stattotex(pct_string, "PctTest", "test/testNums.tex")
+stattotex("PctTest", pct_string, "test/testVars.tex")
 
 # Let's try saving another number with the same name to see if it overrides but does not overwrite
 pct = 100.3
 pct_string = str(pct) + "%"
-stattotex(pct_string, "PctTest", "test/testNums.tex")
+stattotex("PctTest", pct_string, "test/testVars.tex")
 
 # Try saving a word
 if pct > 0.0:
@@ -26,14 +26,14 @@ elif pct == 0.0:
     word = "stayed the same"
 else:
     word = "decreased"
-stattotex(word, "WordTest", "test/testNums.tex")
+stattotex("WordTest", word, "test/testVars.tex")
 
 # Try saving a number with an underscore in number name
 number = 1000
 try:
-    stattotex(number, "Num_Test", "test/testNums.tex")
+    stattotex("Num_Test", number, "test/testVars.tex")
 except ValueError as e:
     err = e
 # Throw an error if the try didn't throw a ValueError
 if err is None:
-    raise "Failed to throw ValueError for number name with underscore."
+    raise "Failed to throw ValueError for variable name with underscore."
