@@ -22,7 +22,7 @@ and use it with
 
 where `variable_name` is a name you want to assign to the variable in LaTeX (note that you may not include underscores), `variable_value` is a number or string, `filename` is a file path string to save the variable to, and `clear_file` is an optional True/False flag to delete a pre-existing file.
 
-Then, in your LaTex document, put
+Then, in your LaTeX document, put
 
 `\input{<your filename>}`
 
