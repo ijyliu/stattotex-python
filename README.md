@@ -6,7 +6,9 @@ Inspired by the Stata package [isapollnik/stattotex](https://github.com/isapolln
 
 ## Installation
 
-`pip install stattotex`
+```
+pip install stattotex
+```
 
 ## Usage
 
