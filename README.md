@@ -2,6 +2,8 @@
 
 A simple function for automatically updating LaTeX documents with numbers or strings from Python. No more manually copying your calculations over every time your code is re-run!
 
+![image](https://github.com/ijyliu/stattotex-python/assets/67396209/27e90a40-9592-41b7-824e-ffcb0a524154)
+
 Inspired by the Stata package [isapollnik/stattotex](https://github.com/isapollnik/stattotex).
 
 ## Installation
