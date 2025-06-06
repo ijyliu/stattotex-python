@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/ijyliu/stattotex-python",
     packages=setuptools.find_packages(),
-    license='GPLv3',
+    license='MIT',
     classifiers=(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
