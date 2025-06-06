@@ -7,7 +7,7 @@ setuptools.setup(
     name="stattotex",
     author="Isaac Liu",
     author_email="ijyliu@gmail.com",
-    version="0.1.2",
+    version="0.1.3",
     description="A simple function for automatically updating LaTeX documents with numbers from Python.",
     long_description=long_description,
     long_description_content_type="text/markdown",
