@@ -29,7 +29,7 @@ def stattotex(variable_name, variable_value, filename, clear_file=False):
 
     # If prior file exists
     # Check for f"\\newcommand{{\\{variable_name}}}" in the file
-    # If it exists, replace the entire line with the new command
+    # If it exists, will use renewcommand to overwrite it
     # If it does not exist, set command = f"\\newcommand{{\\{variable_name}}}{{{variable_value}}}"
     if os.path.exists(filename):
         with open(filename, "r") as file:
