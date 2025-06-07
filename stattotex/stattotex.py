@@ -8,7 +8,7 @@ def stattotex(variable_name, variable_value, filename, clear_file=False):
     - variable_name: The name of the variable for the output LaTeX file
     - variable_value: The value to be saved to the file. Can be a number, number formatted as a string, or a word (numeric or string input)
     - filename: The name of the file to be saved to
-    - clear_file: Default is False. If True, the file will be deleted before writing to it. If false it will not be deleted, and the new variable definition will be appended to the end of the file - still superseding any previous definition for the same variable name.
+    - clear_file: Default is False. If True, the file will be deleted before writing to it. If False it will not be deleted, and the new variable definition will be appended to the end of the file - still superseding any previous definition for the same variable name.
     '''
 
     # Creating the LaTeX command
